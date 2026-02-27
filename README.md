@@ -3,6 +3,7 @@
 An interactive 3D physics engine built to visualize projectile motion in a Cartesian coordinate system. This project was developed as a bridge between **JEE Advanced Physics** concepts and **Computational Engineering**.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Z9dcVIRoKI9NHQIv0hZ8Cznzka-XsSeu?usp=sharing)
+> **Note:** GitHub may show an "Invalid Notebook" error because of the interactive sliders. Please click the button above to run the full simulation in Google Colab.
 
 ## 🔬 Core Physics Analysis
 The simulator resolves initial velocity $u$ into three-dimensional components:
