@@ -18,9 +18,15 @@ One of the key features of this engine is the distinction between:
    $$d = \int_{0}^{t} \sqrt{v_x^2 + v_y^2 + v_z^2} \, dt$$
 
 ## 🛠️ Features
-- **3D Interactive UI:** Real-time sliders for Velocity, Elevation ($\theta$), and Azimuth ($\phi$).
-- **Dynamic Scaling:** Axes automatically adjust to prevent "clipping" at high angles (e.g., $85^\circ$).
-- **Ground Projection:** Dashed tracing to visualize the horizontal range relative to altitude.
+- **3D Visualization:** High-contrast trajectory plotting with ground-track projection.
+- **Interactive UI:** Real-time sliders for Velocity ($u$), Elevation ($\theta$), and Azimuth ($\phi$).
+- **Dynamic Scaling:** Automatic axis adjustment for high-altitude/high-velocity inputs.
+- **Portable:** Includes a standalone Windows executable (.exe).
 
+## 🚀 How to Run
+1. **Cloud:** Click the "Open in Colab" badge above.
+2. **Local:** Clone the repo and run `pip install -r requirements.txt` then `python main.py`.
+3. **Standalone:** Download the latest `.exe` from the [Releases](https://github.com/thedarkxh/Physics-Engine-3D/releases) tab.
+4. 
 ## 🇯🇵 Aiming for Japan (MEXT)
 This project serves as a technical demonstration of my readiness for undergraduate engineering studies in Japan, focusing on **Applied Physics** and **Scientific Computing**.
