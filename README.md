@@ -27,6 +27,6 @@ One of the key features of this engine is the distinction between:
 1. **Cloud:** Click the "Open in Colab" badge above.
 2. **Local:** Clone the repo and run `pip install -r requirements.txt` then `python main.py`.
 3. **Standalone:** Download the latest `.exe` from the [Releases](https://github.com/thedarkxh/Physics-Engine-3D/releases) tab.
-4. 
+
 ## 🇯🇵 Aiming for Japan (MEXT)
 This project serves as a technical demonstration of my readiness for undergraduate engineering studies in Japan, focusing on **Applied Physics** and **Scientific Computing**.
