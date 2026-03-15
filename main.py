@@ -88,6 +88,12 @@ class ProjectileGUI:
         self.ax.set_ylabel("Y (Crossrange)")
         self.ax.set_zlabel("Z (Height)")
         
+        # --- ADD THESE LINES TO LOCK THE VIEW ---
+        self.ax.set_zlim(0, 50)    # Locks height to 50m
+        self.ax.set_xlim(0, 100)   # Locks range to 100m
+        self.ax.set_ylim(-50, 50)  # Locks crossrange
+        
+        self.ax.set_title("3D Kinematics Analysis", color='white', fontfamily='Consolas')
         self.canvas.draw()
 
 if __name__ == "__main__":
